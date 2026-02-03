@@ -1,0 +1,32 @@
+[
+  {
+    "subject_name": "Operating Systems",
+    "questions": [
+      {"question": "Which of the following is not a state of a process?", "options": ["A. New", "B. Running", "C. Waiting", "D. Old"], "answer": "D"},
+      {"question": "What is the main function of the command interpreter?", "options": ["A. To provide the interface", "B. To handle files", "C. To get and execute the next user-specified command", "D. None of the above"], "answer": "C"},
+      {"question": "Virtual memory is commonly implemented by?", "options": ["A. Demand Paging", "B. Bus", "C. Hypervisor", "D. RAM"], "answer": "A"},
+      {"question": "A situation where several processes access and manipulate the same data concurrently is?", "options": ["A. Race Condition", "B. Deadlock", "C. Starvation", "D. Context Switch"], "answer": "A"},
+      {"question": "Banker's algorithm is used for?", "options": ["A. Deadlock prevention", "B. Deadlock avoidance", "C. Deadlock detection", "D. Deadlock removal"], "answer": "B"}
+    ]
+  },
+  {
+    "subject_name": "Object Oriented Programming",
+    "questions": [
+      {"question": "Which feature of OOP is used to derive a class from another class?", "options": ["A. Polymorphism", "B. Encapsulation", "C. Inheritance", "D. Abstraction"], "answer": "C"},
+      {"question": "Wrapping data and functions into a single unit is called?", "options": ["A. Encapsulation", "edB. Abstraction", "C. Polymorphism", "D. Overloading"], "answer": "A"},
+      {"question": "Which of the following is a mechanism to hide internal details?", "options": ["A. Inheritance", "B. Abstraction", "C. Interface", "D. Pointer"], "answer": "B"},
+      {"question": "Multiple inheritance is not supported in Java through classes to avoid?", "options": ["A. Complexity", "B. Memory leak", "C. Diamond Problem", "D. Overloading"], "answer": "C"},
+      {"question": "Which constructor is called when an object is created?", "options": ["A. Static", "B. Default", "C. Friend", "D. None"], "answer": "B"}
+    ]
+  },
+  {
+    "subject_name": "Database Management System",
+    "questions": [
+      {"question": "What does SQL stand for?", "options": ["A. Structured Query Language", "B. Strong Question Language", "C. Simple Query Language", "D. Structured Query List"], "answer": "A"},
+      {"question": "In a relational database, a row is also called?", "options": ["A. Attribute", "B. Tuple", "C. Relation", "D. Field"], "answer": "B"},
+      {"question": "Which key uniquely identifies each record in a table?", "options": ["A. Foreign Key", "B. Primary Key", "C. Secondary Key", "D. Composite Key"], "answer": "B"},
+      {"question": "The property that ensures a database transaction is 'all or nothing' is?", "options": ["A. Consistency", "B. Isolation", "C. Atomicity", "D. Durability"], "answer": "C"},
+      {"question": "Which command is used to remove all records from a table but keep the structure?", "options": ["A. DELETE", "B. DROP", "C. TRUNCATE", "D. REMOVE"], "answer": "C"}
+    ]
+  }
+]
