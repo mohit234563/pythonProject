@@ -6,17 +6,27 @@
       {"question": "What is the main function of the command interpreter?", "options": ["A. To provide the interface", "B. To handle files", "C. To get and execute the next user-specified command", "D. None of the above"], "answer": "C"},
       {"question": "Virtual memory is commonly implemented by?", "options": ["A. Demand Paging", "B. Bus", "C. Hypervisor", "D. RAM"], "answer": "A"},
       {"question": "A situation where several processes access and manipulate the same data concurrently is?", "options": ["A. Race Condition", "B. Deadlock", "C. Starvation", "D. Context Switch"], "answer": "A"},
-      {"question": "Banker's algorithm is used for?", "options": ["A. Deadlock prevention", "B. Deadlock avoidance", "C. Deadlock detection", "D. Deadlock removal"], "answer": "B"}
+      {"question": "Banker's algorithm is used for?", "options": ["A. Deadlock prevention", "B. Deadlock avoidance", "C. Deadlock detection", "D. Deadlock removal"], "answer": "B"},
+      {"question": "Which of the following is the brain of the operating system?", "options": ["A. Shell", "B. Kernel", "C. Compiler", "D. Loader"], "answer": "B"},
+      {"question": "Which of the following is a process?", "options": ["A. Program in secondary memory", "B. Program in execution", "C. Program in source code form", "D. Program in object code"], "answer": "B"},
+      {"question": "Which scheduling algorithm gives equal time to all processes?", "options": ["A. FCFS", "B. Priority Scheduling", "C. Round Robin", "D. SJF"], "answer": "C"},
+      {"question": "Which memory is volatile?", "options": ["A. ROM", "B. Hard Disk", "C. Cache", "D. RAM"], "answer": "D"},
+      {"question": "Which of the following is used to handle deadlock?", "options": ["A. Paging", "B. Scheduling", "C. Banker's Algorithm", "D. Swapping"], "answer": "C"}
     ]
   },
   {
     "subject_name": "Object Oriented Programming",
     "questions": [
       {"question": "Which feature of OOP is used to derive a class from another class?", "options": ["A. Polymorphism", "B. Encapsulation", "C. Inheritance", "D. Abstraction"], "answer": "C"},
-      {"question": "Wrapping data and functions into a single unit is called?", "options": ["A. Encapsulation", "edB. Abstraction", "C. Polymorphism", "D. Overloading"], "answer": "A"},
+      {"question": "Wrapping data and functions into a single unit is called?", "options": ["A. Encapsulation", "B. Abstraction", "C. Polymorphism", "D. Overloading"], "answer": "A"},
       {"question": "Which of the following is a mechanism to hide internal details?", "options": ["A. Inheritance", "B. Abstraction", "C. Interface", "D. Pointer"], "answer": "B"},
       {"question": "Multiple inheritance is not supported in Java through classes to avoid?", "options": ["A. Complexity", "B. Memory leak", "C. Diamond Problem", "D. Overloading"], "answer": "C"},
-      {"question": "Which constructor is called when an object is created?", "options": ["A. Static", "B. Default", "C. Friend", "D. None"], "answer": "B"}
+      {"question": "Which constructor is called when an object is created?", "options": ["A. Static", "B. Default", "C. Friend", "D. None"], "answer": "B"},
+      {"question": "Which concept allows the same function name to have different meanings?", "options": ["A. Inheritance", "B. Encapsulation", "C. Polymorphism", "D. Abstraction"], "answer": "C"},
+      {"question": "An object is an instance of a?", "options": ["A. Method", "B. Variable", "C. Class", "D. Constructor"], "answer": "C"},
+      {"question": "Which keyword is used to create an object in Java?", "options": ["A. class", "B. object", "C. new", "D. create"], "answer": "C"},
+      {"question": "Which access specifier makes members accessible only within the same class?", "options": ["A. public", "B. private", "C. protected", "D. default"], "answer": "B"},
+      {"question": "Which OOP concept improves security by restricting direct access to data?", "options": ["A. Polymorphism", "B. Inheritance", "C. Encapsulation", "D. Abstraction"], "answer": "C"}
     ]
   },
   {
@@ -26,7 +36,12 @@
       {"question": "In a relational database, a row is also called?", "options": ["A. Attribute", "B. Tuple", "C. Relation", "D. Field"], "answer": "B"},
       {"question": "Which key uniquely identifies each record in a table?", "options": ["A. Foreign Key", "B. Primary Key", "C. Secondary Key", "D. Composite Key"], "answer": "B"},
       {"question": "The property that ensures a database transaction is 'all or nothing' is?", "options": ["A. Consistency", "B. Isolation", "C. Atomicity", "D. Durability"], "answer": "C"},
-      {"question": "Which command is used to remove all records from a table but keep the structure?", "options": ["A. DELETE", "B. DROP", "C. TRUNCATE", "D. REMOVE"], "answer": "C"}
+      {"question": "Which command is used to remove all records from a table but keep the structure?", "options": ["A. DELETE", "B. DROP", "C. TRUNCATE", "D. REMOVE"], "answer": "C"},
+      {"question": "Which database model organizes data into tables?", "options": ["A. Hierarchical", "B. Network", "C. Relational", "D. Object-oriented"], "answer": "C"},
+      {"question": "Which SQL clause is used to filter records?", "options": ["A. GROUP BY", "B. WHERE", "C. ORDER BY", "D. HAVING"], "answer": "B"},
+      {"question": "Which key is used to establish a relationship between two tables?", "options": ["A. Primary Key", "B. Candidate Key", "C. Foreign Key", "D. Super Key"], "answer": "C"},
+      {"question": "Which normal form removes partial dependency?", "options": ["A. 1NF", "B. 2NF", "C. 3NF", "D. BCNF"], "answer": "B"},
+      {"question": "Which SQL command is used to add new records to a table?", "options": ["A. UPDATE", "B. INSERT", "C. SELECT", "D. ALTER"], "answer": "B"}
     ]
   }
 ]

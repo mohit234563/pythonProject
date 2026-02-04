@@ -5,7 +5,7 @@ def main():
     db = DatabaseManager()
     
     while True:
-        print("\n===  MCQ MANAGEMENT SYSTEM ===")
+        print("\n===  QUIZ PRACTICE SYSTEM ===")
         subjects = db.get_all_subjects()
         
         if not subjects:
