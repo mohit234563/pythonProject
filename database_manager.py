@@ -4,7 +4,7 @@ from pymongo import MongoClient
 class DatabaseManager:
     def __init__(self):
         # Replace with your actual MongoDB Atlas connection string
-        self.uri = "mongodb+srv://mohitvj721_db_user:yUqGIvPgSUGrp48H@cluster0.dp50xs7.mongodb.net/"
+        self.uri = "mongodb+srv://<password>@cluster0.dp50xs7.mongodb.net/"
         self.client = MongoClient(self.uri)
         self.db = self.client['LabQuizDB']
         self.collection = self.db['Subjects']
